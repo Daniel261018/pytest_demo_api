@@ -1,0 +1,12 @@
+test_param:
+  - ["M", {"code": 0, "message": "update some data!"}]
+  - ["F", {"code": 0, "message": "update some data!"}]
+  - ["X", {"code": 3333, "message": "参数类型错误"}]
+
+test_param_updata:
+  - - {"sex": "M", "age": 10, "mail":"123@qq.com"}
+    - {"code": 0, "message": "update some data!"}
+  - - {"sex": "F", "age": 20, "mail":"1234@qq.com"}
+    - {"code": 0, "message": "update some data!"}
+  - - {"sex": "F", "age": 80, "mail":"1235@qq.com"}
+    - {"code": 0, "message": "update some data!"}

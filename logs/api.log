@@ -1,0 +1,172 @@
+2020-07-30 22:37:56 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "b01a9ce3d5c4c3385eaad3cb0c4e346b9869b245"}
+2020-07-30 22:37:56 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:b01a9ce3d5c4c3385eaad3cb0c4e346b9869b245
+2020-07-30 22:37:57 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 3003, "msg": "账号或密码不正确", "username": "test", "token": ""}
+2020-07-30 22:37:57 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:
+
+2020-07-30 22:37:57 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 0, "msg": "注册成功!", "datas": {}}
+2020-07-30 22:37:58 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 0, "msg": "注册成功!", "datas": {}}
+
+2020-07-30 22:37:58 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 2000, "msg": "test1992用户已被注册", "datas": {}}
+
+2020-07-30 22:37:59 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "df515b6f39d9871fa0982c5cb61670c043dc363f"}
+2020-07-30 22:37:59 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:df515b6f39d9871fa0982c5cb61670c043dc363f
+2020-07-30 22:37:59 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":10,"sex":"M","mail":"123@qq.com"}}
+2020-07-30 22:38:00 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":20,"sex":"F","mail":"1234@qq.com"}}
+2020-07-30 22:38:00 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":80,"sex":"F","mail":"1235@qq.com"}}
+
+2020-07-30 22:38:22 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "2224c7671cd4922b87d0484afbc5ad0012472050"}
+2020-07-30 22:38:22 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:2224c7671cd4922b87d0484afbc5ad0012472050
+2020-07-30 22:38:22 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 3003, "msg": "账号或密码不正确", "username": "test", "token": ""}
+2020-07-30 22:38:22 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:
+
+2020-07-30 22:38:23 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 0, "msg": "注册成功!", "datas": {}}
+2020-07-30 22:38:23 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 0, "msg": "注册成功!", "datas": {}}
+2020-07-30 22:38:23 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 2000, "msg": "test1992用户已被注册", "datas": {}}
+2020-07-30 22:38:23 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "eacd369bb59e65b15bc5ea87e431e970c0cf40d5"}
+2020-07-30 22:38:23 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:eacd369bb59e65b15bc5ea87e431e970c0cf40d5
+
+2020-07-30 22:38:24 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":10,"sex":"M","mail":"123@qq.com"}}
+2020-07-30 22:38:24 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":20,"sex":"F","mail":"1234@qq.com"}}
+2020-07-30 22:38:24 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":80,"sex":"F","mail":"1235@qq.com"}}
+
+2020-07-30 23:48:37 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:30" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "2c765a4cf19f7694ddfd153df2da6f01185b5d29"}
+2020-07-30 23:48:37 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:34" - login - DEBUG - 获取token:2c765a4cf19f7694ddfd153df2da6f01185b5d29
+2020-07-30 23:48:37 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:46" - get_info - DEBUG - 获取个人信息:{"msg":"sucess!","code":0,"data":[{"id":929,"name":"test","sex":"M","age":24,"mail":"xxx@qq.com","create_time":"2020-07-30"}]}
+2020-07-30 23:48:37 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:61" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":20,"sex":"M","mail":"1993@qq.com"}}
+2020-07-30 23:48:37 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:75" - register - DEBUG - 注册接口返回:{"code": 2000, "msg": "test1992用户已被注册", "datas": {}}
+
+2020-07-30 23:56:29 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:30" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "7cdadef603534ead36e8eade494ea3d4d7c864b5"}
+2020-07-30 23:56:29 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:34" - login - DEBUG - 获取token:7cdadef603534ead36e8eade494ea3d4d7c864b5
+2020-07-30 23:56:29 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:46" - get_info - DEBUG - 获取个人信息:{"msg":"sucess!","code":0,"data":[{"id":929,"name":"test","sex":"M","age":20,"mail":"1993@qq.com","create_time":"2020-07-30"}]}
+2020-07-30 23:56:29 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:61" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":20,"sex":"M","mail":"1993@qq.com"}}
+2020-07-30 23:56:29 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:75" - register - DEBUG - 注册接口返回:{"code": 2000, "msg": "test1992用户已被注册", "datas": {}}
+
+2020-07-31 00:01:48 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "88b02fae6e88a1e22b04dc2015168c4901138727"}
+2020-07-31 00:01:48 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:32" - login - DEBUG - 获取token:88b02fae6e88a1e22b04dc2015168c4901138727
+2020-07-31 00:01:48 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:44" - get_info - DEBUG - 获取个人信息:{"msg":"sucess!","code":0,"data":[{"id":929,"name":"test","sex":"M","age":20,"mail":"1993@qq.com","create_time":"2020-07-30"}]}
+2020-07-31 00:01:49 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":20,"sex":"M","mail":"1993@qq.com"}}
+2020-07-31 00:01:49 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 2000, "msg": "test1992用户已被注册", "datas": {}}
+
+2020-07-31 00:02:35 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "2779236420052d0af64770527438c1dcd8aa778f"}
+2020-07-31 00:02:35 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:2779236420052d0af64770527438c1dcd8aa778f
+2020-07-31 00:02:36 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 3003, "msg": "账号或密码不正确", "username": "test", "token": ""}
+2020-07-31 00:02:36 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:
+
+2020-07-31 00:03:24 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "ff842d08ee60994ca7740511e5d321e97446231b"}
+2020-07-31 00:03:24 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:32" - login - DEBUG - 获取token:ff842d08ee60994ca7740511e5d321e97446231b
+2020-07-31 00:03:24 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:44" - get_info - DEBUG - 获取个人信息:{"msg":"sucess!","code":0,"data":[{"id":929,"name":"test","sex":"M","age":20,"mail":"1993@qq.com","create_time":"2020-07-30"}]}
+2020-07-31 00:03:24 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":20,"sex":"M","mail":"1993@qq.com"}}
+2020-07-31 00:03:24 - api - "F:/PythonProject/pytest_demo_api/case/common_api/common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 2000, "msg": "test1992用户已被注册", "datas": {}}
+
+2020-07-31 00:03:30 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "69a477f6753d3c21e29aea8bfd55a7f8864e9ed4"}
+2020-07-31 00:03:30 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:69a477f6753d3c21e29aea8bfd55a7f8864e9ed4
+2020-07-31 00:03:30 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 3003, "msg": "账号或密码不正确", "username": "test", "token": ""}
+2020-07-31 00:03:30 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:
+
+2020-07-31 00:03:38 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "b64d34379416f590871a4c99702bd9d32591a87e"}
+2020-07-31 00:03:38 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:b64d34379416f590871a4c99702bd9d32591a87e
+2020-07-31 00:03:38 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 3003, "msg": "账号或密码不正确", "username": "test", "token": ""}
+2020-07-31 00:03:38 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:
+2020-07-31 00:03:39 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 0, "msg": "注册成功!", "datas": {}}
+
+2020-07-31 00:03:39 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 0, "msg": "注册成功!", "datas": {}}
+2020-07-31 00:03:39 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 2000, "msg": "test1992用户已被注册", "datas": {}}
+2020-07-31 00:03:39 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "fa75c4ebf8407c8b401afdc5beac7f6ab0d8618b"}
+2020-07-31 00:03:39 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:fa75c4ebf8407c8b401afdc5beac7f6ab0d8618b
+2020-07-31 00:03:40 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":10,"sex":"M","mail":"123@qq.com"}}
+2020-07-31 00:03:40 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":20,"sex":"F","mail":"1234@qq.com"}}
+
+2020-07-31 00:03:40 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":80,"sex":"F","mail":"1235@qq.com"}}
+
+2020-07-31 00:06:34 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "9dd383693d36c6665968846638419d4214c4e337"}
+2020-07-31 00:06:34 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:9dd383693d36c6665968846638419d4214c4e337
+2020-07-31 00:06:34 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 3003, "msg": "账号或密码不正确", "username": "test", "token": ""}
+2020-07-31 00:06:34 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:
+
+2020-07-31 00:07:44 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "a57750b29fd04f1b43f9ab4534e5ad06705e89a2"}
+2020-07-31 00:07:44 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:a57750b29fd04f1b43f9ab4534e5ad06705e89a2
+2020-07-31 00:07:44 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 3003, "msg": "账号或密码不正确", "username": "test", "token": ""}
+2020-07-31 00:07:44 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:
+
+2020-07-31 00:11:34 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "252f9f7e865f8d91d685efd04d767f92c6bfd022"}
+2020-07-31 00:11:34 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:252f9f7e865f8d91d685efd04d767f92c6bfd022
+2020-07-31 00:11:35 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 3003, "msg": "账号或密码不正确", "username": "test", "token": ""}
+2020-07-31 00:11:35 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:
+
+2020-07-31 00:11:43 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 0, "msg": "注册成功!", "datas": {}}
+
+2020-07-31 00:11:44 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 0, "msg": "注册成功!", "datas": {}}
+2020-07-31 00:11:44 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 2000, "msg": "test1992用户已被注册", "datas": {}}
+
+2020-07-31 00:11:53 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "693a20c019db9396693dc675cd87499c1d0e33a4"}
+2020-07-31 00:11:53 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:693a20c019db9396693dc675cd87499c1d0e33a4
+2020-07-31 00:11:53 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":10,"sex":"M","mail":"123@qq.com"}}
+2020-07-31 00:11:53 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":20,"sex":"F","mail":"1234@qq.com"}}
+2020-07-31 00:11:54 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":80,"sex":"F","mail":"1235@qq.com"}}
+
+2020-07-31 00:24:40 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "fbc901766f8605c4d25732dd08afade865cd2abd"}
+2020-07-31 00:24:40 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:fbc901766f8605c4d25732dd08afade865cd2abd
+2020-07-31 00:24:40 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 3003, "msg": "账号或密码不正确", "username": "test", "token": ""}
+2020-07-31 00:24:40 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:
+
+2020-07-31 00:24:40 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 0, "msg": "注册成功!", "datas": {}}
+2020-07-31 00:24:41 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 0, "msg": "注册成功!", "datas": {}}
+2020-07-31 00:24:41 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 2000, "msg": "test1992用户已被注册", "datas": {}}
+
+2020-07-31 00:24:41 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "21eb6272695598584726c6589bbed604691bd185"}
+2020-07-31 00:24:41 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:21eb6272695598584726c6589bbed604691bd185
+2020-07-31 00:24:42 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":10,"sex":"M","mail":"123@qq.com"}}
+2020-07-31 00:24:42 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":20,"sex":"F","mail":"1234@qq.com"}}
+2020-07-31 00:24:42 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":80,"sex":"F","mail":"1235@qq.com"}}
+
+2020-07-31 00:25:46 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:[Fiddler] The connection to '49.235.92.12' failed. <br />Error: ConnectionRefused (0x274d). <br />System.Net.Sockets.SocketException 由于目标计算机积极拒绝，无法连接。 49.235.92.12:6008                                                                                                                                                                                                                                                                                                                                                        
+
+2020-07-31 00:25:48 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:[Fiddler] The connection to '49.235.92.12' failed. <br />Error: ConnectionRefused (0x274d). <br />System.Net.Sockets.SocketException 由于目标计算机积极拒绝，无法连接。 49.235.92.12:6008                                                                                                                                                                                                                                                                                                                                                        
+
+2020-07-31 00:25:51 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:[Fiddler] The connection to '49.235.92.12' failed. <br />Error: ConnectionRefused (0x274d). <br />System.Net.Sockets.SocketException 由于目标计算机积极拒绝，无法连接。 49.235.92.12:6008                                                                                                                                                                                                                                                                                                                                                        
+
+2020-07-31 00:25:53 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:[Fiddler] The connection to '49.235.92.12' failed. <br />Error: ConnectionRefused (0x274d). <br />System.Net.Sockets.SocketException 由于目标计算机积极拒绝，无法连接。 49.235.92.12:6008                                                                                                                                                                                                                                                                                                                                                        
+
+2020-07-31 00:25:56 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:[Fiddler] The connection to '49.235.92.12' failed. <br />Error: ConnectionRefused (0x274d). <br />System.Net.Sockets.SocketException 由于目标计算机积极拒绝，无法连接。 49.235.92.12:6008                                                                                                                                                                                                                                                                                                                                                        
+
+2020-07-31 00:26:47 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "0385cc3a5d7bc2c1be707f20de3ac30fcc64e3d5"}
+2020-07-31 00:26:47 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:0385cc3a5d7bc2c1be707f20de3ac30fcc64e3d5
+2020-07-31 00:26:47 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 3003, "msg": "账号或密码不正确", "username": "test", "token": ""}
+2020-07-31 00:26:47 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:
+
+2020-07-31 00:26:47 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 0, "msg": "注册成功!", "datas": {}}
+2020-07-31 00:26:48 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 0, "msg": "注册成功!", "datas": {}}
+2020-07-31 00:26:48 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 2000, "msg": "test1992用户已被注册", "datas": {}}
+2020-07-31 00:26:48 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "d9dda44207004b4fc029221a2ca227f83e4f4832"}
+2020-07-31 00:26:48 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:d9dda44207004b4fc029221a2ca227f83e4f4832
+
+2020-07-31 00:26:48 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":10,"sex":"M","mail":"123@qq.com"}}
+2020-07-31 00:26:49 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":20,"sex":"F","mail":"1234@qq.com"}}
+2020-07-31 00:26:49 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":80,"sex":"F","mail":"1235@qq.com"}}
+
+2020-07-31 10:08:01 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "61da3c18c4ee8a71a2b7225e0361b60cf2e82d57"}
+2020-07-31 10:08:01 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:61da3c18c4ee8a71a2b7225e0361b60cf2e82d57
+2020-07-31 10:08:01 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":10,"sex":"M","mail":"123@qq.com"}}
+2020-07-31 10:08:01 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":20,"sex":"F","mail":"1234@qq.com"}}
+2020-07-31 10:08:01 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":80,"sex":"F","mail":"1235@qq.com"}}
+
+2020-07-31 10:34:59 - api - "F:/PythonProject/vlt_api_pytest/common/logs.py:12" - <module> - DEBUG - -------debug-------
+2020-07-31 10:34:59 - api - "F:/PythonProject/vlt_api_pytest/common/logs.py:13" - <module> - INFO - -------info-------
+2020-07-31 10:34:59 - api - "F:/PythonProject/vlt_api_pytest/common/logs.py:14" - <module> - WARNING - -------warning-------
+2020-07-31 10:34:59 - api - "F:/PythonProject/vlt_api_pytest/common/logs.py:15" - <module> - ERROR - -------error-------
+2020-07-31 10:34:59 - api - "F:/PythonProject/vlt_api_pytest/common/logs.py:16" - <module> - CRITICAL - -------critical-------
+
+2020-07-31 10:46:01 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "eeeebeb350906917225b7a68213c5fb693babca8"}
+2020-07-31 10:46:01 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:eeeebeb350906917225b7a68213c5fb693babca8
+2020-07-31 10:46:02 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 3003, "msg": "账号或密码不正确", "username": "test", "token": ""}
+2020-07-31 10:46:02 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:
+2020-07-31 10:46:02 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 0, "msg": "注册成功!", "datas": {}}
+
+2020-07-31 10:46:02 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 0, "msg": "注册成功!", "datas": {}}
+2020-07-31 10:46:03 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:73" - register - DEBUG - 注册接口返回:{"code": 2000, "msg": "test1992用户已被注册", "datas": {}}
+2020-07-31 10:46:03 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:28" - login - DEBUG - 登录返回:{"code": 0, "msg": "login success!", "username": "test", "token": "03209838b88636493f2b633867b19628521180b0"}
+2020-07-31 10:46:03 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:32" - login - DEBUG - 获取token:03209838b88636493f2b633867b19628521180b0
+2020-07-31 10:46:03 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":10,"sex":"M","mail":"123@qq.com"}}
+2020-07-31 10:46:03 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":20,"sex":"F","mail":"1234@qq.com"}}
+2020-07-31 10:46:03 - api - "F:\PythonProject\pytest_demo_api\case\common_api\common_function.py:59" - modefy_info - INFO - 修改个人信息:{"message":"update some data!","code":0,"data":{"name":"test","age":80,"sex":"F","mail":"1235@qq.com"}}
+
