@@ -66,4 +66,4 @@ import os
 
 log_base = os.path.dirname(os.path.realpath(__file__))
 LOG_PATH = os.path.join(log_base, "logs")
-print(LOG_PATH)
+# print(LOG_PATH)
