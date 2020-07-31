@@ -51,5 +51,5 @@
 - module 模块级别： 模块里所有的用例执行前执行一次module级别的fixture
 - class 类级别 ：每个类执行前都会执行一次class级别的fixture
 - function ：前面实例已经说了，这个默认是默认的模式，函数级别的，每个测试用例执行前都会执行一次function级别的fixture
-
+1
    
