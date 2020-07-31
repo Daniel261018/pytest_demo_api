@@ -13,7 +13,7 @@ data = get_yaml_data(yaml_path)
 
 class TestModefyInfo():
 
-    @pytest.mark.info
+    # @pytest.mark.info
     @pytest.mark.parametrize("test_input, expected", data["test_param_updata"])
     def test_modefy_info_2(self, login_fixture, test_input, expected):
         '''登录-修改'''
