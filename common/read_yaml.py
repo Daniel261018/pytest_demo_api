@@ -24,7 +24,7 @@ if __name__ == '__main__':
     print(cur_path)  # F:\PythonProject\pytest_demo_api\common
     print(os.path.dirname(cur_path))  # F:\PythonProject\pytest_demo_api
     yaml_path = os.path.join(os.path.dirname(cur_path), "test_data",
-                             "test_data.yml")  # F:\PythonProject\pytest_demo_api\test_data\test_data.yml
+                             "uesrinfo_data.yml")  # F:\PythonProject\pytest_demo_api\test_data\uesrinfo_data.yml
     print(yaml_path)
     a = get_yaml_data(yaml_path)
     print(a)

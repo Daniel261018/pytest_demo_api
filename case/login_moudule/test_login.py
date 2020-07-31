@@ -4,7 +4,9 @@
 from case.common_api.common_function import Loginclass
 import requests
 
+
 class TestLogin():
+
     def test_login_success(self):
         '''输入正确账号，正确密码'''
         s = requests.session()
@@ -18,4 +20,3 @@ class TestLogin():
         info = Loginclass(s)
         infos = info.login(psw="1245")
         assert not infos.json()["token"]
-

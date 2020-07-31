@@ -37,7 +37,7 @@ class Loginclass():
         # print(token)
         return r
 
-    def get_info(self):
+    def get_userinfo(self):
         '''获取个人信息'''
         url = os.environ["host"] + "/api/v1/userinfo"
         r = self.s.get(url)
@@ -46,7 +46,7 @@ class Loginclass():
         # print(r2.text)
         return r
 
-    def modefy_info(self, name="test", age=20, sex="M", mail="1993@qq.com"):
+    def modefy_userinfo(self, name="test", age=20, sex="M", mail="1993@qq.com"):
         '''修改个人信息'''
         url = os.environ["host"] + "/api/v1/userinfo"
         body = {
@@ -79,10 +79,10 @@ if __name__ == '__main__':
     s = requests.session()
     a = Loginclass(s)
     b = a.login()
-    c = a.get_info()
-    d = a.modefy_info()
-    f = a.register()
+    c = a.get_userinfo()
+    d = a.modefy_userinfo()
+    f = a.register(uesrname="liujie")
     # print(b.json())
-    # print(c.json())
+    print(c.json())
     # print(d.json())
-    # print(f.json())
+    print(f.json())

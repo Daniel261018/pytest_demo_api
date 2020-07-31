@@ -6,15 +6,17 @@ import pytest
 import requests
 from case.common_api.common_function import Loginclass
 
+
 class TestRegister():
-    def test_register_1(self, unlogin_fixture, delete_user):
+
+    def test_register_success(self, unlogin_fixture, delete_user):
         '''注册成功'''
         info = Loginclass(unlogin_fixture)
         r = info.register()
         assert r.json()["msg"] == "注册成功!"
         assert r.json()["code"] == 0
 
-    def test_register_2(self, unlogin_fixture, delete_user):
+    def test_register_fail(self, unlogin_fixture, delete_user):
         '''已经被注册'''
         info = Loginclass(unlogin_fixture)
         r = info.register()
