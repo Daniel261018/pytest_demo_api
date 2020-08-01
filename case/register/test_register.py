@@ -7,7 +7,7 @@ import requests
 import allure
 from case.common_api.common_function import Loginclass
 
-@allure.step("注册模块")
+@allure.feature("注册模块")
 class TestRegister():
 
     @allure.title("注册成功")

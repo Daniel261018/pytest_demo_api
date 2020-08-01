@@ -5,7 +5,7 @@ from case.common_api.common_function import Loginclass
 import requests
 import allure
 
-allure.feature("登录模块")
+@allure.feature("登录模块")
 class TestLogin():
 
     @allure.title("输入正确账号，正确密码")
