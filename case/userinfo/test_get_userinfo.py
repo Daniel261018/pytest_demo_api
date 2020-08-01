@@ -4,12 +4,14 @@
 
 import pytest
 import os
+import allure
 from setting import uesrinfo_data
 from case.common_api.common_function import Loginclass
 
-
+@allure.feature("个人信息模块")
 class TestGetUserinfo():
 
+    @allure.title("获取个人信息")
     def test_get_userinfo(self, login_fixture):
         s = login_fixture
         info = Loginclass(s)
