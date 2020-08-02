@@ -1,4 +1,4 @@
-test_param:
+test_param_sex:
   - ["M", {"code": 0, "message": "update some data!"}]
   - ["F", {"code": 0, "message": "update some data!"}]
   - ["X", {"code": 3333, "message": "参数类型错误"}]
