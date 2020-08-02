@@ -11,7 +11,8 @@ from case.common_api.common_function import Loginclass
 @allure.feature("个人信息模块")
 class TestGetUserinfo():
 
-    @allure.title("获取个人信息")
+    @allure.story("获取个人信息成功")
+    @allure.title("获取个人信息：所有参数正确")
     def test_get_userinfo(self, login_fixture):
         s = login_fixture
         info = Loginclass(s)

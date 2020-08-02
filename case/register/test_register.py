@@ -10,7 +10,8 @@ from case.common_api.common_function import Loginclass
 @allure.feature("注册模块")
 class TestRegister():
 
-    @allure.title("注册成功")
+    @allure.story("注册成功")
+    @allure.title("注册成功：所有参数正确")
     def test_register_success(self, unlogin_fixture, delete_user):
         '''注册成功'''
         info = Loginclass(unlogin_fixture)
@@ -18,6 +19,7 @@ class TestRegister():
         assert r.json()["msg"] == "注册成功!"
         assert r.json()["code"] == 0
 
+    @allure.story("注册失败")
     @allure.title("注册账号已经被注册过")
     def test_register_fail(self, unlogin_fixture, delete_user):
         '''已经被注册'''

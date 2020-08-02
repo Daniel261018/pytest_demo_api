@@ -12,6 +12,7 @@ from case.common_api.common_function import Loginclass
 @allure.feature("个人信息模块")
 class TestModefyUserinfo():
 
+    @allure.story("修改个人信息成功")
     @allure.title("修改个人信息成功-sex")
     # @pytest.mark.info
     @pytest.mark.parametrize("test_input, expected", uesrinfo_data["test_param_sex"])
@@ -24,6 +25,7 @@ class TestModefyUserinfo():
         assert r.json()['code'] == expected["code"]
         assert r.json()['message'] == expected["message"]
 
+    @allure.story("修改个人信息成功")
     @allure.title("修改个人信息成功-all")
     # @pytest.mark.info
     @pytest.mark.parametrize("test_input, expected", uesrinfo_data["test_param_updata"])
