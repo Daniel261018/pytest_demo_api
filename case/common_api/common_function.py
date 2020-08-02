@@ -17,7 +17,7 @@ class Loginclass():
     def __init__(self, s):
         self.s = s
 
-    allure.step("登录")
+    @allure.step("登录")
     def login(self, user="test", psw="123456"):
         '''登录'''
         url = os.environ["host"] + "/api/v1/login"
@@ -39,7 +39,7 @@ class Loginclass():
         # print(token)
         return r
 
-    allure.step("获取个人信息")
+    @allure.step("获取个人信息")
     def get_userinfo(self):
         '''获取个人信息'''
         url = os.environ["host"] + "/api/v1/userinfo"
@@ -49,7 +49,7 @@ class Loginclass():
         # print(r2.text)
         return r
 
-    allure.step("修改个人信息")
+    @allure.step("修改个人信息")
     def modefy_userinfo(self, name="test", age=20, sex="M", mail="1993@qq.com"):
         '''修改个人信息'''
         url = os.environ["host"] + "/api/v1/userinfo"
@@ -65,7 +65,7 @@ class Loginclass():
         # print(r2.text)
         return r
 
-    allure.step("注册")
+    @allure.step("注册")
     def register(self, uesrname="test1992", password="123456", mail="1992@qq.com"):
         """注册"""
         url = os.environ["host"] + "/api/v1/register"
