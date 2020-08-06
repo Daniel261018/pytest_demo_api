@@ -9,7 +9,6 @@ import os
 from common.read_yaml import get_yaml_data
 
 base_dir = os.path.dirname(os.path.realpath(__file__))
-
 # print(base_dir)  # F:\PythonProject\pytest_demo_api
 
 yaml_path1 = os.path.join(base_dir, "test_data", "login_data.yml")
