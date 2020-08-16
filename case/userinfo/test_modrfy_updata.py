@@ -20,7 +20,7 @@ class TestModefyUserinfo():
         '''登录-修改'''
         s = login_fixture
         info = Loginclass(s)
-        r = info.modefy_userinfo(sex=test_input)
+        r = info.modefy_userinfo(**test_input)
         # print(r.text)
         assert r.json()['code'] == expected["code"]
         assert r.json()['message'] == expected["message"]
@@ -33,7 +33,7 @@ class TestModefyUserinfo():
         '''登录-修改'''
         s = login_fixture
         info = Loginclass(s)
-        r = info.modefy_userinfo(sex=test_input["sex"], age=test_input["age"], mail=test_input["mail"])
-        # print(r.text)
+        r = info.modefy_userinfo(**test_input)
+        print(r.text)
         assert r.json()['code'] == expected["code"]
         assert r.json()['message'] == expected["message"]

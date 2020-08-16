@@ -50,15 +50,13 @@ class Loginclass():
         return r
 
     @allure.step("修改个人信息")
-    def modefy_userinfo(self, name="test", age=20, sex="M", mail="1993@qq.com"):
+    def modefy_userinfo(self, name="test", age=20, sex="M", **kwargs):
         '''修改个人信息'''
         url = os.environ["host"] + "/api/v1/userinfo"
-        body = {
-            "name": name,
-            "age": age,
-            "sex": sex,
-            "mail": mail
-        }
+        body = kwargs
+        body["name"] = name
+        body["age"] = age
+        body["sex"] = sex
         r = self.s.post(url, json=body)
         logger.info("修改个人信息:%s" % r.text)
         # print(r2.json())
@@ -85,9 +83,9 @@ if __name__ == '__main__':
     a = Loginclass(s)
     b = a.login()
     # c = a.get_userinfo()
-    # d = a.modefy_userinfo()
+    d = a.modefy_userinfo(mail="12@qq.com")
     # f = a.register(mail="")
-    print(b.json())
+    # print(b.json())
     # print(c.json())
-    # print(d.json())
+    print(d.json())
     # print(f.json())
